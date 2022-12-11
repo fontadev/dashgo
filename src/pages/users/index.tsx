@@ -33,7 +33,7 @@ export default function UserList() {
                                     <Checkbox colorScheme={'pink'}></Checkbox>
                                 </Th>
                                 <Th>Usuário</Th>
-                                {isWideVersion ?? <Th>Data de cadastro</Th>}
+                                {isWideVersion && <Th>Data de cadastro</Th>}
                                 <Th width={8}></Th>
                             </Tr>
                         </Thead>
