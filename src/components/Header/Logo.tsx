@@ -4,12 +4,12 @@ export function Logo() {
     return (
         <Text
             fontSize={['2xl', '3xl']}
-            fontWeight={'bold'}
+            fontWeight='bold'
             letterSpacing='light'
             w='64'
         >
             dashgo
-            <Text as='span' ml={1} color={'pink.500'}>
+            <Text as='span' ml='1' color='pink.500'>
                 .
             </Text>
         </Text>

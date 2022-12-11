@@ -17,7 +17,7 @@ export default function Header() {
         <Flex
             as='header'
             w='100%'
-            maxWidth={1480}
+            maxWidth='1480'
             h='20'
             mx='auto'
             mt='4'
@@ -29,7 +29,7 @@ export default function Header() {
                     aria-label="Open navigation"
                     icon={<Icon as={RiMenuLine} />}
                     fontSize={24}
-                    variant={'unstyled'}
+                    variant='unstyled'
                     onClick={onOpen}
                     mr={2}
                 >
@@ -40,7 +40,7 @@ export default function Header() {
             {isWideVersion && <SearchBox />}
 
             <Flex
-                align={'center'}
+                align='center'
                 ml='auto'
             >
                 <NotificationsNav />
